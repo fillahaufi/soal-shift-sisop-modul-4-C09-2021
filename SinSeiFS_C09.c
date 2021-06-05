@@ -1,6 +1,6 @@
 void printlog(char* command , int level, char* path){
     FILE* file;
-    file = fopen("/home/almond/fs.log", "a+");
+    file = fopen("/home/Naufaldillah/SinSeiFS.log", "a+");
     time_t epoch;
     struct tm* timestamp;
 
@@ -15,7 +15,7 @@ void printlog(char* command , int level, char* path){
 
 void printlog2(char* command , int level, char* path, char* path2){
     FILE* file;
-    file = fopen("/home/almond/fs.log", "a+");
+    file = fopen("/home/Naufaldillah/SinSeiFS.log", "a+");
     time_t epoch;
     struct tm* timestamp;
 
