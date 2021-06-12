@@ -12,9 +12,16 @@
 ## Soal 2 ##
 ### Pengerjaan ###
 #### Soal 2a. ####
+1. Jika membuat direktori dengan awalan RX maka direktori akan terendcode dengan algoritma tambahan ROT13
+2. 
 #### Soal 2b. ####
+1. Jika me-rename direktori dengan awalan RX maka direktori akan terencode dengan algoritma tambahan Vigenere Cipher
+2. 
 #### Soal 2c. ####
+1. Jika me-rename dengan menghilangkan RX pada direktori maka isi folder akan ter-decode
+2. 
 #### Soal 2d. ####
+1. Pencatatan setiap mkdir atau rename kedalam log file
 #### Soal 2e. ####
 
 ## Soal 3 ##
