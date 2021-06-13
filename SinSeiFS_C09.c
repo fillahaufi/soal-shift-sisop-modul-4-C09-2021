@@ -289,6 +289,7 @@ static int xmp_mkdir(const char *path, mode_t mode)
     if (res == -1)
         return -errno;
 
+    printlog("MKDIR", 0, fpath);
     return 0;
 }
 
@@ -328,7 +329,7 @@ static int xmp_rename(const char *from, const char *to)
     if (res == -1)
         return -errno;
 
-
+    printlog2("RENAME", 0, fromPath, toPath);
     return 0;
 }
 
