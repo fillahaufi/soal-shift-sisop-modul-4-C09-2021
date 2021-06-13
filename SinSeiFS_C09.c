@@ -42,7 +42,7 @@ void printlog2(char* command , int level, char* path, char* path2){
 
 static const char *KEY = "SISOP";
 
-static  const  char *dirpath = "/home/gian/Downloads";
+static  const  char *dirpath = "/home/fillahaufi/Downloads";
 
 // nmr 2 a;
 void encryptrot13(char *string, int type) {
