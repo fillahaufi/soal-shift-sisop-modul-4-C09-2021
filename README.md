@@ -280,6 +280,7 @@ Log system yang akan terbentuk bernama “SinSeiFS.log” pada direktori home pe
 Karena Sin dan Sei suka kerapian maka log yang dibuat akan dibagi menjadi dua level, yaitu INFO dan WARNING.
 #### Soal 4c. ####
 Untuk log level WARNING, digunakan untuk mencatat syscall rmdir dan unlink.
+Catatan: Tidak bisa diterapkan
 #### Soal 4d. ####
 Sisanya, akan dicatat pada level INFO.
 ```
